@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 #Import Data
-data=pd.read_csv('C:/Users/Arnav/Desktop/Arnav/Forest Fire Prediction/ForestFireDataset.csv')
+data=pd.read_csv('ForestFireDataset.csv')
 
 #Converting data into Train and Test data
 X=data.drop(['Area', 'Fire Occurrence'], axis=1)
